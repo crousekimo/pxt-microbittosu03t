@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/microbitsu03t-strings.json"
+        "_locales/zh/microbittosu03t-strings.json"
     ],
     "public": true
 }
