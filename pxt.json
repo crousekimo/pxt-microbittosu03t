@@ -1,0 +1,15 @@
+{
+    "name": "pxt-microbittosu03t",
+    "version": "0.1",
+    "description": "這是micro:bit控制SU03t/CI03t積木",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/microbitsu03t-strings.json"
+    ],
+    "public": true
+}

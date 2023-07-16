@@ -1,0 +1,7 @@
+{
+    "microbittosu03t|block": "SU03T/CI03T",
+    "microbittosu03t.setMicrobit|block": "設定Microbit |TX %tx|RX %rx|baudrate %baudrate",
+    "microbittosu03t.returnserialdata1|block": "讀取SU-03t辨識結果",
+    "microbittosu03t.sendserialdata|block": "請SU-03t念出字串編號 %id 的詞",
+    "microbittosu03t.sendserialdata1|block": "請SU-03t念出字串編號 %id 的詞並加入 %_22 的整數"
+}
