@@ -1,6 +1,6 @@
 # MicrobitESP32
 
-Micro:Bit控制HLKv20積木
+Micro:Bit控制SU03T/CI03T積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-microbitesp32=github:crousekimo/microbittohlkv20
+microbitesp32=github:crousekimo/pxt-microbittosu03t
 ```
