@@ -24,14 +24,14 @@ let readserialdata='';
 
     //% blockId=sendserialdata block="su-03t speak string id %id "
     //% weight=100
-    export function sendserialdata(id: string):boolean {
+    export function sendserialdata(id: string) {
             let _a=pins.createBuffer(5)
     	    _a[0] = 170
             _a[1] = 85
             _a[2] = parseInt(id,16)
             _a[3] = 85
             _a[4] = 170
-    	    serial.writeBuffer(a)
+    	    serial.writeBuffer(_a)
     }     
     //% blockId=sendserialdata1 block="su-03t speak  string id %id with integer %_22"
     //% weight=99
@@ -46,6 +46,6 @@ let readserialdata='';
             _a[6] = _22 >> 24 & 0xFF
             _a[7] = 85
             _a[8] = 170
-    	    serial.writeBuffer(a)
+    	    serial.writeBuffer(_a)
     } 
 }
