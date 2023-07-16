@@ -1,4 +1,4 @@
-# MicrobitESP32
+# MicrobittoSU03T
 
 Micro:Bit控制SU03T/CI03T積木
 
